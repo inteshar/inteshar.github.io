@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+body{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.293), rgb(108, 110, 223));
+    font-family: 'Caveat', cursive;
+}
+.custom_back_button{
+    transition: 0.8s;
+    font-weight: 700;
+    font-size: 18px;
+}
+.custom_back_button:hover{
+    background-color: rgb(75, 209, 213);
+    transition: 0.8s;
+    border: 1px solid black;
+}
+.resume_btn{
+    background-color: rgb(75, 209, 213);
+    border: 1px solid black;
+    font-weight: 700;
+    font-size: 18px;
+}
+.intro{
+    height: 100vh;
+}
+.intro p{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+.intro h1{
+    font-size: 70px;
+}
+.intro a{
+    padding: 10px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    transition: 0.8s;
+}
+.intro a:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 0.8s;
+}
+.about{
+    height: max-content;
+    position: relative;
+}
+.about:before {
+    margin: 3rem;
+    content: "About Me";
+    position: absolute;
+    color: rgba(0, 0, 0, 0.107);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    font-size: 350px;
+}
+.about h1{
+    font-size: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.208);
+}
+.technical h4{
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.684), rgb(114, 203, 240));
+}
+.soft h4{
+    background-image: linear-gradient(to left, rgb(255, 255, 255, 0.684), rgb(114, 203, 240));
+}
+.experience{
+    margin-top: 100px;
+    height: 100vh;
+    position: relative;
+}
+.experience:before {
+    margin: 3rem;
+    content: "Experience";
+    position: absolute;
+    color: rgba(0, 0, 0, 0.107);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    font-size: 350px;
+}
+.experience .exp_card{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+.experience .exp_card:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+}
+
+.projects{
+    margin-top: 100px;
+    height: 100vh;
+    position: relative;
+}
+.projects:before{
+    margin: 3rem;
+    content: "Projects";
+    position: absolute;
+    color: rgba(0, 0, 0, 0.107);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    font-size: 400px;
+}
+.project {
+    position : relative;
+    width : 1100px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding : 30px;  
+  }
+  
+  .project .body {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #fff;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .project .body:hover {
+    height : 400px;    
+  }
+  
+  
+  .project .body .image {
+    position : relative;
+    margin-bottom: -15px;
+    width : 260px;
+    height : 260px;
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  .project .body .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .project .body .texts {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .project .body:hover .texts {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+  .project .body .texts a{
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: rgb(75, 209, 213);
+  }

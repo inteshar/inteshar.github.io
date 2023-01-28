@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 
 body{
-    width: 100%;
+    width: max-content;
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0.293), rgb(108, 110, 223));
     font-family: 'Caveat', cursive;
 }

@@ -231,3 +231,27 @@ body{
       opacity: 0;
     }
   }
+@media(max-width:768px){
+    .intro{
+        height: 100vh;
+    }
+}
+.navbar-nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.custom_back_button{
+    font-size:14px;
+    padding:8px 12px;
+}
+.resume_btn{
+    font-size:14px;
+    padding:8px 12px;
+}
+.about .technical, .about .soft{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}

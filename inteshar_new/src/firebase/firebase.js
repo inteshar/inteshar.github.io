@@ -4,13 +4,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD0Ya6aEQ2ohrBzfuByr4-OU6AO-sdvqs8",
-  authDomain: "inteshar-portf.firebaseapp.com",
-  projectId: "inteshar-portf",
-  storageBucket: "inteshar-portf.appspot.com",
-  messagingSenderId: "788411220496",
-  appId: "1:788411220496:web:3f38748aae6f09d8f18095",
-  measurementId: "G-8PB01PTQFR",
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGE_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID",
 };
 
 // Initialize Firebase

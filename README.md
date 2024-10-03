@@ -15,7 +15,7 @@ Welcome to my Personal Portfolio! This project showcases my skills, projects, an
 
 ## Demo
 
-You can view the live demo of my portfolio [here](https://inteshar.github.io/).
+You can view the live demo of my portfolio [here](https://inteshar.vercel.app/).
 
 ## Features
 

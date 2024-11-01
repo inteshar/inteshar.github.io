@@ -1,95 +1,21 @@
-# Personal Portfolio
+# 💫 About Me:
+Computer science graduate and Junior Developer passionate about Android app and web development. Experienced in crafting diverse projects encompassing both domains. Eager to further explore and contribute to the dynamic landscape of software development
 
-Welcome to my Personal Portfolio! This project showcases my skills, projects, and experiences, allowing potential employers and collaborators to learn more about me. It is built using React for the frontend and Firebase for backend services.
 
-## Table of Contents
+## 🌐 Socials:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/mohammadintesharalamm) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mohammadintesharalam) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammad-inteshar-alam) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@mrxiwlev) 
 
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+# 💻 Tech Stack:
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=inteshar&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=inteshar&theme=dark&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=inteshar&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-## Demo
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-You can view the live demo of my portfolio [here](https://inteshar.vercel.app/).
+---
+[![](https://visitcount.itsvg.in/api?id=inteshar&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## Features
-
-- **Responsive Design:** Adapts to various screen sizes.
-- **Dynamic Blog Section:** Allows for showcasing articles and insights.
-- **Contact Form:** Users can reach out directly through the portfolio.
-- **About Me Section:** Highlights my background and skills.
-- **Projects Showcase:** Displays my work and projects.
-
-## Technologies Used
-
-This project utilizes the following technologies:
-
-- **Frontend:**
-  - React
-  - Tailwind CSS
-- **Backend:**
-  - Firebase (Firestore for database)
-- **Others:**
-  - JavaScript
-  - HTML/CSS
-
-## Installation
-
-To set up this project locally, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/personal-portfolio.git
-
-2. **Navigate to the project directory:**
-   ```bash
-   cd personal-portfolio
-3. **Install dependencies:**
-   ```bash
-   npm install
-4. **Set up Firebase:**
-  - Go to the Firebase Console.
-  - Create a new project and set up Firestore.
-  - Obtain your Firebase config object and create a .env file in the root of the project with the following contents:
-
-REACT_APP_FIREBASE_API_KEY=your_api_key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
-REACT_APP_FIREBASE_PROJECT_ID=your_project_id
-REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-REACT_APP_FIREBASE_APP_ID=your_app_id
-
-5. **Start the development server:**
-   ```bash
-   npm start
-Your app should now be running on http://localhost:3000.
-
-**Usage**
-
-    Open your web browser and navigate to http://localhost:3000 to view your portfolio.
-    To modify the portfolio content, edit the respective components in the src directory, such as About, Projects, and Blog.
-
-**Customization**
-
-Feel free to customize the following areas of the portfolio:
-
-    Personal Information: Update the About section with your biography and skills.
-    Projects: Add or modify the projects displayed in the Projects section.
-    Blog: Manage blog entries by adding or editing content.
-    Styling: Adjust styles in tailwind.config.js or the individual component styles as needed.
-
-**Contributing**
-
-Contributions are welcome! If you wish to contribute, please fork the repository and submit a pull request. Make sure to adhere to the coding standards and maintain the existing structure of the project.
-
-**License**
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Thank you for checking out my portfolio!
-Feel free to copy and paste this directly into your `README.md` file! If you need any more modifications or additional information, let me know!
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

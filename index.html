@@ -12,42 +12,125 @@
       rel="stylesheet"
     />
     <style>
-      body{
-        background-color: #F5EEE2;
+      body {
+        background-color: #f0f4f8;
+        font-family: "Outfit", sans-serif;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
-        font-family: outfit;
         min-height: 100vh;
-        min-width: 100vw;
+        margin: 0;
+        padding: 20px;
+      }
+      .card {
+        background: linear-gradient(135deg, #fb7f64, #3c303e);
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        padding: 40px;
+        color: white;
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+      }
+      .profile {
+        margin-bottom: 25px;
+      }
+      img {
+        border-radius: 50%;
+        border: 4px solid white;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+      h1 {
+        font-size: 22px;
+        margin: 15px 0 5px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: #fffae6;
+      }
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      a {
+        text-decoration: none;
+        background-color: white;
+        color: #3c303e;
+        border-radius: 30px;
+        padding: 12px 20px;
+        transition: transform 0.3s, box-shadow 0.3s;
+        font-weight: bold;
+        position: relative;
         overflow: hidden;
       }
-      a{
-        text-decoration: none;
-        background-color: #3C303E;
-        color: #FB7F64;
-        border-radius: 10px;
-        padding: 10px 20px;
-        min-width: 200px;
-        text-align: center;
-        transition: 0.5s ease-in-out;
+      a:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
       }
-      a:hover{
-        background-color: #C6B895;
-        color: #3C303E;
-        transition: 0.5s ease-in-out;
+      a::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        background: rgba(251, 127, 100, 0.3);
+        border-radius: 30px;
+        transition: transform 0.3s;
+        transform: translateX(-50%) scale(0);
+        z-index: 0;
+      }
+      a:hover::before {
+        transform: translateX(-50%) scale(1);
+      }
+      a span {
+        position: relative;
+        z-index: 1;
       }
     </style>
   </head>
   <body>
-    <a href="https://inteshar.vercel.app" target="_blank">Portfolio</a>
-    <a href="https://github.com/inteshar" target="_blank">GitHub Profile</a>
-    <a href="https://codepen.io/mrxiwlev/" target="_blank">CodePen Profile</a>
-    <a href="https://www.youtube.com/@mrxiwlev" target="_blank">YouTube Channel</a>
-    <a href="https://www.linkedin.com/in/mohammad-inteshar-alam" target="_blank">LinkedIn Profile</a>
-    <a href="https://www.facebook.com/mohammadintesharalamm" target="_blank">Facebook Profile</a>
-    <a href="https://www.instagram.com/mohammadintesharalam" target="_blank">Instagram Profile</a>
+    <div class="card">
+      <div class="profile">
+        <img
+          src="https://inteshar.vercel.app/assets/photo-D5z5HDj7.webp"
+          alt="Mohammad Inteshar Alam"
+        />
+        <h1>Mohammad Inteshar Alam</h1>
+        <p>Software Developer</p>
+      </div>
+      <div class="links">
+        <a href="https://inteshar.vercel.app" target="_blank"
+          ><span>Portfolio</span></a
+        >
+        <a href="https://github.com/inteshar" target="_blank"
+          ><span>GitHub Profile</span></a
+        >
+        <a href="https://codepen.io/mrxiwlev/" target="_blank"
+          ><span>CodePen Profile</span></a
+        >
+        <a href="https://www.youtube.com/@mrxiwlev" target="_blank"
+          ><span>YouTube Channel</span></a
+        >
+        <a
+          href="https://www.linkedin.com/in/mohammad-inteshar-alam"
+          target="_blank"
+          ><span>LinkedIn Profile</span></a
+        >
+        <a href="https://www.facebook.com/mohammadintesharalamm" target="_blank"
+          ><span>Facebook Profile</span></a
+        >
+        <a href="https://www.instagram.com/mohammadintesharalam" target="_blank"
+          ><span>Instagram Profile</span></a
+        >
+      </div>
+    </div>
   </body>
 </html>
